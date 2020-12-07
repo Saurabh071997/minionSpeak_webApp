@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+:root{
+    --yellow400: #FBBF24;
+    --truegray900:#171717;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin:0%;
+    background-image: url("/images/image.png");
+    background-repeat: repeat;
+}
+
+.header{
+    background-color: var(--yellow400);
+    margin-bottom: 1rem;
+}
+
+.navigation{
+    max-width: 600px;
+    margin: auto;   
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.navigation h2{
+    font-size: 2rem;
+    font-weight: 2rem;
+}
+
+.body-container{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 85%;
+    min-height: 20vh;
+    margin: 2rem auto;
+    font-size: 1.25rem;
+    font-family:inherit;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+button{
+    background-color: var(--yellow400);
+    border-radius:0.5rem;
+    margin: 1rem auto 2rem auto;
+    padding:1rem 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    
+}
+
+#txt-output{
+    box-sizing: border-box;
+    /* display: block; */
+    width: 85%;
+    min-height: 15vh;
+    max-height: 20vh;
+    overflow: scroll;
+    margin: 0rem  auto 2rem auto;
+    font-size: 1.25rem;
+    font-family:inherit;
+    /* border-radius: 0.5rem; */
+    border: 1px solid var(--truegray900);
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.txt-message{
+    background-color: var(--yellow400);
+    border-radius:0.5rem;
+    padding:1rem 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0rem auto 0.5rem auto;
+    width: 60%;
+}
+
+.footer{
+    background-color: var(--yellow400);
+   padding: 0rem;
+   margin:auto;
+}
+
+.footer-container{
+    max-width: 600px;
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+}
+
+.footer-heading{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.footer-detail{
+    margin: 0.5rem auto;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 80%;
+}
+
