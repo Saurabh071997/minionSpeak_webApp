@@ -99,6 +99,25 @@ button{
     padding: 0rem;
 }
 
+.footer-social-link-bar{
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem auto 0rem auto;
+}
+
+.footer-social-link{
+    height: 2rem;
+    width: 2rem;
+    transition: 0.5s ease;
+    margin:0rem 1rem;
+}
+
+.footer-social-image:hover{
+    transform: scale(1.15);
+}
+
 .footer-heading{
     text-align: center;
     font-size: 1.5rem;
