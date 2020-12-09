@@ -1,11 +1,11 @@
 # <span style="font-size: 3rem">**Minion Speak 😃**</span>
 
-### A web app build with **HTML** , **CSS** ,  and **Vanilla JS** .
+ A web app build with **HTML** , **CSS** ,  and **Vanilla JS** .
 
-### The motive of this app was to build a beginner's level  web app to undertstand the various functionalities of **Javascript**. 
+The motive of this app was to build a beginner's level  web app to undertstand the various functionalities of **Javascript**. 
 <br>
 
-## **Minion Speak is a translator application.**
+ **Minion Speak is a translator application.**
 Users can provide any english sentence/word as an input to the web application and the translator converts that input sentence to **minion language**.
 <br><br>
 
